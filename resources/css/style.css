@@ -1,0 +1,153 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
+
+header {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  padding: 0px 10px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+  width: 380px;
+  padding: inherit;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+maincontent {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bigcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+banner {
+  background-color: black;
+  height: min-content;
+}
+
+banner.h2
+.h4 {
+  text-align: center;
+}
+
+.steeping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 770px;
+  padding-top: 50px;
+}
+
+.teas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea {
+  height: 300px;
+  width: 310px;
+}
+
+.imagecontent {
+  background-color: grey;
+  height: 200px;
+  width: 300px;
+}
+
+.tea1.imagecontent {
+  background-image: url("../images/img-berryblitz.jpg");
+  background-size: cover;
+}
+
+.tea2.imagecontent {
+  background-image: url("../images/img-spiced-rum.jpg");
+  background-size: cover;
+}
+
+.tea3.imagecontent {
+  background-image: url("../images/img-donut.jpg");
+  background-size: cover;
+}
+
+.tea4.imagecontent {
+  background-image: url("../images/img-myrtle-ave.jpg");
+  background-size: cover;
+}
+
+.tea5.imagecontent {
+  background-image: url("../images/img-bedford-bizarre.jpg");
+  background-size: cover;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-size: cover;
+  height: 500px;
+  padding-top: 50px;
+}
+
+.loccontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.locbox {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+}
